@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Simpla POP</title>
+    <meta name="description" content="Simpla POP">
+    <meta name="author" content="Simpla POP">
+
+    <!-- Include Simpla, Netlify auth adapter, and cross-browser polyfill-->
+    <script src="https://unpkg.com/simpla@^3.0.0"></script>
+    <script src="https://unpkg.com/simpla@^3.0.0/adapters/netlify.js"></script>
+    <script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js" async></script>
+
+    <!-- Init Simpla -->
+    <script>
+        Simpla.init({
+
+            // The Github repo you want Simpla to use
+            repo: 'poriol/simplapop',
+
+            // Netlify auth adapter, initialize with your Netlify site name
+            auth: new SimplaNetlify({ site: 'infallible-lamarr-a6d7db' }),
+
+            // Public content source (optional)
+            // Defaults to fetching directly from Github
+            source: 'https://infallible-lamarr-a6d7db.netlify.com/'
+
+        });
+    </script>
+</head>
+
+<body>
+AAAAAAAAAAAAAAAAAAAAA
+</body>
+</html>

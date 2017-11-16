@@ -29,9 +29,19 @@
 
         });
     </script>
+
+    <!-- Import Simpla elements -->
+    <link rel="import" href="/bower_components/simpla-text/simpla-text.html">
+    <link rel="import" href="/bower_components/simpla-img/simpla-img.html">
+    <link rel="import" href="/bower_components/simpla-admin/simpla-admin.html" async>
+
 </head>
 
 <body>
-AAAAAAAAAAAAAAAAAAAAA
+<!-- Block of editable richtext -->
+<simpla-text path="/text"></simpla-text>
+
+<!-- An editable image -->
+<img is="simpla-img" path="/section/img">
 </body>
 </html>
